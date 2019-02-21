@@ -1,0 +1,24 @@
+:root {
+    --colorVar: gold;
+    --imgWidth: 600px;
+    --imgFilter: 100%;
+}
+
+body {
+    background: ghostwhite;
+    color: steelblue;
+    margin: 1.5rem
+}
+
+#htext {
+    color: var(--colorVar);
+}
+
+.controls input {
+    margin: 1rem;
+}
+
+#jsImg {
+    width: var(--imgWidth);
+    filter: grayscale(var(--imgFilter));
+}
